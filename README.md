@@ -1,7 +1,8 @@
 # Camera-Calibration
 ## Problem Statement:
-To find intrinsic and extrinsic camera calibration parameters of mobile phone's camera. Intrinsic calibration parameters include focal length, skew, radial distortion parameters, other distortion parameters, and the camera's optic center.
-Extrinsic calibration parameters include Rotation and translation (scale) computation for every photo taken by the mobile phone.
+To find intrinsic and extrinsic camera calibration parameters of mobile phone's camera. 
+* Intrinsic calibration parameters include focal length, skew, radial distortion parameters, other distortion parameters, and the camera's optic center.
+* Extrinsic calibration parameters include Rotation and translation (scale) computation for every photo taken by the mobile phone.
 We need to calibrate our mobile phone camera using a checkerboard object. 
 Print two (or three) copies of the checkerboard image and stick them to two (or three) orthogonal planes (wall corner). 
 Click a picture of the checkerboard from your phone. 
