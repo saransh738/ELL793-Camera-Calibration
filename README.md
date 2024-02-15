@@ -15,6 +15,6 @@ Now, write a program that estimates the 3 × 4 projection matrix P and then deco
 
 * Normalize the data such that the centroid of 2D and 3D points are at the origin and the average Euclidean distance of 2D and 3D points from the origin is √2 and √3, respectively.
 * Find the transformation matrices T and U that achieve this for 2D and 3D respectively, i.e., ˆx = Tx and Xˆ = UX where x and X are the unnormalized 2D and 3D points in homogeneous coordinates.
-* Estimate the normalized projection matrix Pˆ using the DLT method. Denormalize the projection matrix Pˆ. (P = T−1PˆU).
+* Estimate the normalized projection matrix Pˆ using the DLT method. Denormalize the projection matrix Pˆ. 
 * Decompose the projection matrix P = K[R| −RXo] into intrinsic matrix K, rotation matrix R, and the camera center Xo. K and R can be estimated using RQ decomposition.
 * Verify that the projection matrix is correctly estimated by computing the RMSE between the 2D points marked by you and the estimated 2D projections of the marked 3D points. Visualize the points on the image and include them in the report. Also, mention why it is a good idea to normalize the points before performing DLT.
